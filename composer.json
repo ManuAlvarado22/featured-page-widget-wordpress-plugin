@@ -1,0 +1,11 @@
+{
+    "name": "manualvarado22/featured-page",
+    "description": "This plugin adds widgets to nicely highlight pages of your site",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "FeaturedPage\\": "./inc" }
+    }
+}

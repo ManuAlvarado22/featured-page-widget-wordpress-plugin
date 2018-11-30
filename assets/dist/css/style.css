@@ -1,0 +1,40 @@
+.featured-page-box {
+  padding: 0 .5rem;
+  position: relative;
+  flex: 1 0 32.66667%;
+  align-self: center; }
+  @media screen and (max-width: 42.5em) {
+    .featured-page-box:not(:last-child) {
+      margin-bottom: 1rem; } }
+  .featured-page-box:hover .featured-page-box__image {
+    transform: scale(1.1); }
+  .featured-page-box__link-wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline-block; }
+  .featured-page-box__title {
+    color: #fff;
+    font-family: inherit;
+    font-size: 4rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; }
+  .featured-page-box__image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden; }
+  .featured-page-box__image {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    transition: transform .3s ease-in-out;
+    filter: brightness(0.7);
+    backface-visibility: hidden; }
+
+.featured-pages-nya {
+  visibility: hidden; }
